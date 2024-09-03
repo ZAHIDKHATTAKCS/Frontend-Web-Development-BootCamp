@@ -1,4 +1,4 @@
-<img src="Xounity Logo.jpg" width="500px"><br><br>
+<img src="Xounity Logo.jpg"><br><br>
 
 # Frontend Web Development BootCamp by Xounity
 
