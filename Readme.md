@@ -2,7 +2,11 @@
 
 # Frontend Web Development BootCamp by Xounity
 
-## HTML (HyperText Markup Language)
+
+### <p align='center'>HTML (HyperText Markup Language)</p>
+
+## <p align="center">Day 1</p>
+
 
 - `<!DocType html>` which tells what is the type of the document like !DocType html which means the document type is HTML
 
@@ -37,6 +41,9 @@
 - `<li></li>` this tag is used to define the list inside the ordered or unordered list
 
 - `type="a/A/1"` this is an attribute that define the type of list like it will start the list from small alphabets capital alphabets or numbers
+
+## <p align="center">Day 2</p>
+
 
 ### <p align="center">Links and Images</p>
 
