@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.random{
+    color: blue;
+    text-align: right;
+    font-style: italic;
+}
+
+.random2{
+    font-weight: bold;
+}
+
+img{
+    width: 50%;
+    height: 20%;
+}

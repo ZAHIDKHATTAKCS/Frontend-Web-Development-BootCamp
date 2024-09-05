@@ -94,8 +94,60 @@
 - `required` this is the value of the input field, if we set an input field to required so the user must have to fill out that specific input.
 
 
-- `<button></button>` tag is used to create a button that can be clicked to submit or rest the form
+- `<button></button>` tag is used to create a button that can be clicked to submit or rest the form <br><br>
+
+## <p align="center">Day 3</p>
+
+### <p align='center'>CSS (Cascading Style Sheet)</p>
+
+- `CSS` CasCading stylesheet, CSS is used to define styles for your web pages, including the design, in CSS we have property and it's value
+
+### <p align="center">Types of CSS</p>
+1. Inline Css ( styling in the element )
+2. Internal Css ( styling in the head of the document )
+3. External Css ( styling in separate document )
+
+
+- `Element Selector` The element selector selects HTML elements based on the element name
+
+- `Universal Selector`
+
+- `grouping` if we are using same property to multiple elements so that is called grouping
+
+### <p align="center">Id and Classes</p>
+- `id=""` id is always unique , call by `#`
+
+- `class=""` class can be multiple in a single element , call by `.` , classes can be repeat on different elements
+
+
+### <p align="center">Comments in CSS</p>
+
+- `single line comment` /* */
+
+- `Double line` /* */ single line comment and double line comments in css are same for both cases.
+
+
+### <p align="center">Formatting</p>
+
+- `width` is used to define width to elements 20% \ 20px \ 20rem
+
+- `height` is used to define height to elements, 20% \ 20px \ 20rem
+
+- `background-color` red \ green \ blue \ etc
+
+- `text-alignment` left \ center \ right
+
+- `font-weight` bold , bolder etc
+
+- `font-family` sans-serif , timeNewRoman etc
+
+- `font-size` 20px , 20% , 20rem etc
+
+
+
 <br><br><br>
+
+
 
 ## Teacher
 
