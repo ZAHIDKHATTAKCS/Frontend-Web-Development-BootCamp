@@ -1,10 +1,6 @@
 <img src="Xounity Logo.jpg"><br><br>
 
 # Frontend Web Development BootCamp by Xounity
-<br><br>
-
-
-<hr>
 
 ## <p align='center'>My Details</p>
 
@@ -16,7 +12,7 @@
 
 <img src="My pic.JPG">
 
-<hr>
+# 
 
 
 
