@@ -1,7 +1,9 @@
-## My Details
-### My Name : Muhammad Zahid
+### <p align='center'>Task # 2</p>
 
-### My ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 1044
+![Task 2](Task2.jpg)
 
-### My Image :
-<img src="images/My pic.JPG">
+<br><br><br>
+
+### <p align='center'>Task # 2 output after completion</p>
+
+![Task 2 Output](Task2done.png) 
