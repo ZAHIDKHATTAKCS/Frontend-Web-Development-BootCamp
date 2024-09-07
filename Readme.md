@@ -144,15 +144,62 @@
 - `font-size` 20px , 20% , 20rem etc
 
 
+## <p align="center">Day 4</p>
+
+### <p align='center'>Git & GitHub</p>
+
+1. Git <b>[Download](https://git-scm.com/download/win)</b>
+
+2. Create a Repository in GitHub
+
+3. Initialize Git
+
+    * git config --global user.name "your user name"
+
+    * git config --global user.email "your email"
+
+4. Create a remote connection with GitHub repository and push code to GitHub
+
+    + git init
+
+    + git remote add origin (repo Url)
+
+    +  git add . 
+
+    + git commit -m "add a message"
+
+    + git push origin master / main
+
+    These are the most important commands
+
+5. Extra Commands optional
+
+    + git status (display which file you changed)
+
+    + git log ( show you the history of your commits )
+
+    + git remote -v ( show your remote repository )
+
+- `Version Control` Version control is like a history book for your files. It helps you keep track of changes you make to your files over time, so you can go back to earlier versions if needed.
+
+
+### <p align='center'>How to deploy Static Projects for free</p>
+
+1. Deploy on <b>[Vercel.com](https://vercel.com)</b>
+
+2. Deploy on <b>[Netlify.com](https://Netlify.com)</b>
+
 
 <br><br><br>
-
-
 
 ## Teacher
 
 ### [Mirza Zain](https://www.linkedin.com/in/mirza-zain269/)
 
-## Lectures Youtube Link
+## Notes
+
+### [Lectures Notes](https://drive.google.com/drive/folders/1eSNtY5uxcaw2xzH2DKsTfUzVbPggbbE4?usp=sharing)
+
+## Lectures Youtube Videos
 
 ### [Lectures](https://www.youtube.com/@xounity1/streams)
