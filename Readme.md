@@ -190,6 +190,45 @@
 2. Deploy on <b>[Netlify.com](https://Netlify.com)</b>
 
 
+## <p align="center">Day 5</p>
+
+### <p align='center'>CSS Part 2</p>
+
+- `background-img` to set an image in the background of the content or to the whole body you can set the background image to the body and applied it on different elements
+
+- `background-repeat` is the property to set the background repeat no repeat which means your background image will not repeat again and again
+
+- `background-size` is the property to set the background size of the body image to either cover or contain
+
+- `background-position` is used for set the background image on left, right, top, bottom
+
+- `background-attachment` is used to set the background image position to fixed means background image will not move with scrolling or move with scrolling ,
+
+    + background-attachment: fixed;
+    + background-attachment: scroll;
+
+
+### <p align='center'>Borders</p>
+
+- `border-style`
+    + solid
+    + dotted
+    + dashed
+    + double
+
+- `border-width`
+    + 20px etc
+
+
+- `border-color`
+    + red
+    + green
+    + blue
+    + any color
+
+- `border-radius`
+    + 20px
+
 <br><br><br>
 
 ## Teacher
