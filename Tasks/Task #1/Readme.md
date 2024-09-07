@@ -1,9 +1,9 @@
-### <p align='center'>Task # 1</p>
+### Task # 1
 
 ![Task](Task.jpg)
 
 <br><br><br><br>
 
-### <p align='center'>Task # 1 output after completion</p>
+### Task # 1 output after completion
 
 ![Task](task1done.jpg)
