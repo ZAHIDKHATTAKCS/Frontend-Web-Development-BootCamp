@@ -1,14 +1,19 @@
 <img src="Xounity Logo.jpg"><br><br>
 
-# Frontend Web Development BootCamp by Xounity <br><br><br>
+# Frontend Web Development BootCamp by Xounity
+<br><br>
 
 
-## My Details
-### My Name : Muhammad Zahid
+<hr>
 
-### My ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 1044
+## <p align='center'>My Details</p>
 
-### My Image :
+### My Name &nbsp; &nbsp;  : Muhammad Zahid
+
+### My Class ID &nbsp; :  1044
+
+### My Image &nbsp; &nbsp; &nbsp;:
+
 <img src="My pic.JPG">
 
 <hr>
