@@ -245,6 +245,59 @@
 - `border-radius`
     + 20px
 
+## <p align="center">Day 6</p>
+
+### <p align='center'>CSS Part 3</p>
+
+<br>
+
+### <p align='center'>Display Properties</p>
+
+- `Block` block level elements takes all the width  
+
+- `inline-Block` taking all the contents in one line
+
+### <p align='center'>Flex Properties</p>
+
+
+- `Flex` flex property takes all the contents in one line
+
+- `Inline-Flex` same as flex property
+
+- `flex-direction`
+    + column
+
+    + row
+    + flex-wrap
+    + flex-flow
+    + justify-content -> start / center / end / space-around / space-between / space-evenly
+    + align-items -> start / center / end / space-around / space-between / space-evenly
+    + align-content -> start / center / end / space-around / space-between / space-evenly
+    + order -> order:2 ;  change the positing of the dives or content
+
+- `flex-grow` will grow the div when a screen size is to change to the big
+
+    + flex-grow : 1 ;
+
+- `flex-shrink` will shrink the div to which you applied when the screen size is come to small
+
+    + flex-shrink : 1 ;
+
+### <p align='center'>Animation Properties</p>
+
+- `Transition`
+    + transition: ease - in - out ;
+
+    + transition-duration: 4s;
+
+
+
+- `padding` this property is giving inner space to the content
+
+- `Margin` this property is giving outer space to the content
+
+
+
 <br><br><br>
 
 ## Teacher

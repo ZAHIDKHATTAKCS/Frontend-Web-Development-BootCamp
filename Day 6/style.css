@@ -1,0 +1,52 @@
+p{
+    /* display: ; */
+}
+
+.flex-container{
+    background-color: pink;
+    height: 400px;
+}
+
+.flex-container > div{
+    background-color: dodgerblue;
+    width: 20%;
+    height: 20%;
+    /* padding: 2%; */
+    margin: 1%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.div4{
+    flex-shrink: 1;
+}
+
+h1{
+    color:brown;
+    transition: ease-in-out;
+    transition: 2s;
+    
+}
+
+h1:hover{
+    color: blue;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+button{
+    margin-top: 30px;
+    padding: 2% 5%;
+
+    background-color: yellow;
+}
+
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
