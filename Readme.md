@@ -296,6 +296,34 @@
 
 - `Margin` this property is giving outer space to the content
 
+<br>
+<br>
+
+## <p align="center">Day 7</p>
+
+### <p align='center'>JavaScript</p>
+
+- `JavaScript` JavaScript is the programming language used for gaming and adding functionality to HTML elements.
+
+
+
+### <p align='center'>JavaScript Variables</p>
+
+
+- `Var` var is the type of JavaScript variable. Variable is used to store the data. Var allow you to store any type of data , like numbers and strings.
+
+- `let` let is the type of JavScript, let is used to assign value only once you can't declare it again.
+
+
+- `const` const is the type of JavaScript, in const you can't reinitialized the new value once it is initialized.
+
+
+- `typeof()` is the keyword used to show the type of the variables.
+
+- `console.log` this keyword is used to show the output like print the value 
+
+- `` 
+
 
 
 <br><br><br>
