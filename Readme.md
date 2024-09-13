@@ -296,6 +296,41 @@
 
 - `Margin` this property is giving outer space to the content
 
+
+
+### <p align='center'>HTML & CSS Project Assignment01</p>
+- `transform` this property is used to make the content 2d mean x-axis and y-axis to which you applied. and we can center the content on the screen now by putting 50% right and 50% from left 
+
+- `text-transform` is the css property to change the text style to
+    + capitalize 
+    + uppercase
+    + lowercase
+
+- `Google fonts` to take a google fonts and apply on your website so you have go to [Google Fonts](https://fonts.google.com/)
+
+    1. look for a font
+
+    2. click on get font
+
+    3. click on get embed code
+
+    4. @import is used for external css file just copy the @import code and paste it into your external css file
+
+    5. you can use links in the html file to import the font by clicking on the link option
+
+- `object-position` this is the css property to apply on images to set its position whenever you define a height and width for a div the background image of the that div sometimes show only the middle image or left or right image so for that we have to use this property to align the image to 
+    + top
+    + bottom
+    + right
+    + left 
+    + top , right or top , center // etc
+
+- `object-fit` is the css property to cover the div width and height whenever you applied a picture to a div
+    + cover
+    + contain
+
+
+
 <br>
 <br>
 
@@ -306,23 +341,29 @@
 - `JavaScript` JavaScript is the programming language used for gaming and adding functionality to HTML elements.
 
 
+### <p align='center'>JavaScript Variables Declaration</p>
 
-### <p align='center'>JavaScript Variables</p>
+- `variables` is used to store data
+
+
+#### <p align='center'>Types of Variables </p>
 
 
 - `Var` var is the type of JavaScript variable. Variable is used to store the data. Var allow you to store any type of data , like numbers and strings.
 
 - `let` let is the type of JavScript, let is used to assign value only once you can't declare it again.
 
-
 - `const` const is the type of JavaScript, in const you can't reinitialized the new value once it is initialized.
 
+    + let a = 'zahid'; string variable
+    + let b = 5; number variable
+    + let c = 5.4; float variable 
+    + let d = false/true; Boolean variable
 
 - `typeof()` is the keyword used to show the type of the variables.
 
 - `console.log` this keyword is used to show the output like print the value 
 
-- `` 
 
 
 
