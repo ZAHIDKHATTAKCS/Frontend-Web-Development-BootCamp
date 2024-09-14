@@ -1,34 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    
 }
 
-body{
-    width:100vw;
+body {
+    width: 100vw;
     height: 100vh;
     color: white;
+    background-color: #cad2c5;
+    font-family: "Bebas Neue";
+    overflow-x: hidden;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FB6376;
+    background-color: #2f3e46;
 }
 
-#logo{
+#logo {
     width: 120px;
 }
 
-#logo:hover{
+#logo:hover {
     cursor: pointer;
 }
 
-ul{
+ul {
     width: 250px;
     display: flex;
     justify-content: space-between;
@@ -37,47 +39,43 @@ ul{
     /* border: 2px solid blue; */
 }
 
-
-ul li{
+ul li {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-
-ul li a{
+ul li a {
     text-decoration: none;
     font-size: 30px;
-    color: #FFF9EC;
+    color: #cad2c5;
 }
 
-ul li a:hover{
-    color: #FCB1A6;
+ul li a:hover {
+    color: #fcb1a6;
 }
 
-
-#nav-right > a > #btn{
+#nav-right>a>#btn {
     /* background-color: #5D2A42; */
-    background-color: #4F75FF;
+    background-color: #4f75ff;
     color: white;
     font-size: 20px;
     padding: 5px;
     border: none;
     border-radius: 6px;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
-
-#nav-right > a > #btn:hover{
+#nav-right>a>#btn:hover {
     cursor: pointer;
-    background-color: #6439FF;
+    background-color: #6439ff;
     border: none;
 }
 
-#hero > h1{
-    color: black;
+#hero>h1 {
+    color: #354f52;
     width: 100%;
-    font-size: 60px;
+    font-size: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,13 +83,258 @@ ul li a:hover{
     text-align: center;
     text-transform: uppercase;
     font-family: "Bebas Neue";
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid #354f52;
+    border-bottom: 2px solid #354f52;
+    animation: animate 5s linear infinite;
 }
 
-#images img{
-    width: 300px;
-    height: 300px;
+@keyframes animate {
+    0% {
+        color: #cad2c5;
+    }
+
+    50% {
+        color: #84a98c;
+    }
+
+    100% {
+        color: #2f3e46;
+    }
+}
+
+#hero h3 {
+    color: #354f52;
+    font-size: 30px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#images img {
+    width: 350px;
+    height: 350px;
     object-fit: cover;
-    object-position: top,center;
+    object-position: top, center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    animation: fadeInOut 15s infinite;
+}
+
+#images #one {
+    transform: translate(-50%, -50%) rotate(-1deg);
+    border: 1px solid #fb6376;
+    box-shadow: 5px 5px 20px #fb6376;
+    animation-delay: 2s;
+}
+
+#images #five {
+    transform: translate(-50%, -50%) rotate(-3deg);
+    border: 1px solid purple;
+    animation-delay: 4s;
+}
+
+#images #four {
+    transform: translate(-50%, -50%) rotate(-5deg);
+    border: 1px solid red;
+    animation-delay: 6s;
+}
+
+#images #three {
+    transform: translate(-50%, -50%) rotate(-7deg);
+    border: 1px solid green;
+    animation-delay: 8s;
+}
+
+#images #two {
+    transform: translate(-50%, -50%) rotate(-9deg);
+    border: 1px solid blue;
+    animation-delay: 10s;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    20% {
+        opacity: 1;
+    }
+
+    21%,
+    100% {
+        opacity: 0;
+    }
+}
+
+footer {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    background-color: #2f3e46;
+    height: 100px;
+    width: 100%;
+}
+
+#footer-links-div {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon {
+    font-size: 30px;
+}
+
+#icon:hover {
+    font-size: 34px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+    }
+
+    #logo {
+        width: 80px;
+    }
+
+    ul {
+        /* border: 2px solid yellow; */
+        width: 200px;
+    }
+
+    ul li a {
+        font-size: 20px;
+    }
+
+    #nav-right>a>#btn {
+        font-size: 18px;
+    }
+
+    #images img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #hero h1 {
+        font-size: 30px;
+    }
+
+    #hero h3 {
+        font-size: 15px;
+    }
+}
+
+/* about page css */
+
+#main-div {
+    width: 100vw;
+    height: 90vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+#about, #details{
+    padding: 10px;
+    /* border: 2px solid red; */
+    background-color: #2f3e46;
+    border-radius: 10px;
+}
+
+
+#mypic {
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid yellowgreen;
+}
+
+#mypic:hover {
+    cursor: pointer;
+    width: 302px;
+    box-shadow: 2px 2px 10px yellow;
+}
+
+#about {
+    margin-top: 10px;
+}
+
+#details {
+    margin-top: 30px;
+    width: 60%;
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 18px;
+}
+
+
+/* contact form */
+
+#contact-form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+form{
+    border: 2px solid red;
+    width: 50%;
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 20px blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+
+
+#submit-btn{
+    background-color: rgb(90, 90, 209);
+    color: white;
+    font-size: 17px;
+}
+
+#submit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(65, 65, 219);
+}
+
+
+
+
+#about-body{
+    background-image: url("Images/hero_images/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#contact-body{
+    background-image: url("Images/contact_image.jpg");
+    background-size: cover;
 }
