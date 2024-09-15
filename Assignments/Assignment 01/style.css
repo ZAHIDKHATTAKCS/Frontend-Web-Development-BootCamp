@@ -196,7 +196,34 @@ footer {
     font-size: 34px;
 }
 
+
+/* media queries */
+
 @media (min-width: 320px) and (max-width: 600px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    form {
+        box-sizing: border-box;
+        border: 2px solid red;
+        width: 80%;
+        padding: 50px;
+        border-radius: 20px;
+        box-shadow: 2px 3px 20px blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        backdrop-filter: blur(2px);
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    #contact-form {
+        width: 100%;
+        height: 80vh;
+    }
+
     nav {
         display: flex;
     }
@@ -206,7 +233,6 @@ footer {
     }
 
     ul {
-        /* border: 2px solid yellow; */
         width: 130px;
     }
 
@@ -233,6 +259,34 @@ footer {
     }
 }
 
+
+/* for big screen */
+@media (min-width: 601px) {
+    form {
+        border: 2px solid red;
+        width: 50%;
+        padding: 70px;
+        border-radius: 20px;
+        box-shadow: 2px 3px 20px blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        backdrop-filter: blur(3px);
+    }
+    #contact-form {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+
+
+
 /* about page css */
 
 #main-div {
@@ -246,7 +300,8 @@ footer {
     backdrop-filter: blur(4px);
 }
 
-#about, #details{
+#about,
+#details {
     padding: 10px;
     /* border: 2px solid red; */
     background-color: #2f3e46;
@@ -281,46 +336,29 @@ footer {
 
 /* contact form */
 
-#contact-form{
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 90vh;
-}
 
-form{
-    border: 2px solid red;
-    width: 50%;
-    padding: 70px;
-    border-radius: 20px;
-    box-shadow: 2px 3px 20px blue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    backdrop-filter: blur(3px);
-}
 
-input{
+
+
+input {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid rgba(128, 128, 128, 0.603);
     border-radius: 5px;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
 
 
-#submit-btn{
+#submit-btn {
     background-color: rgb(90, 90, 209);
     color: white;
     font-size: 17px;
 }
 
-#submit-btn:hover{
+#submit-btn:hover {
     cursor: pointer;
     background-color: rgb(65, 65, 219);
 }
@@ -328,14 +366,14 @@ input:focus{
 
 
 
-#about-body{
+#about-body {
     background-image: url("Images/hero_images/1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 
-#contact-body{
+#contact-body {
     background-image: url("Images/contact_image.jpg");
     background-size: cover;
 }
