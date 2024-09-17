@@ -389,6 +389,18 @@
 - `.length` is the property to show the length of the array, like if there are three items inside the array it will return 3.
 
 
+## <p align="center">Day 9</p>
+
+### <p align='center'>JavaScript Conditional Statements If-Else</p>
+
+- `Concatenation` Concatenation means to Concat or to link two things or get Together two different things.
+
+- `if-else` if-else statement is used to execute different blocks of code based on whether a condition is true or false, if a condition true than run this code, if not true than run else part of the code.
+
+- `nested-if-else` nested-if-else is the if-else condition inside the other if-else called nested-if-else condition
+
+
+
 <br><br><br>
 
 ## Teacher
