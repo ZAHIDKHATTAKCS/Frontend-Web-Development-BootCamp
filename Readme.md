@@ -365,6 +365,28 @@
 - `console.log` this keyword is used to show the output like print the value 
 
 
+## <p align="center">Day 8</p>
+### <p align='center'>JavaScript Arrays</p>
+- `array` array is used to store multiple values of the same type. for example
+    + string array
+    
+    <p align="center">let Names = ["Zahid","Khattak","Farhan","Khan"];<br>
+    console.log ( Names ) ;
+    </p>
+
+
+    + numbers array
+    <p align="center">let numbers = [2,3,4,5,6];<br>
+    console.log ( numbers ) ;
+    </p>
+
+- `mixed array` in JavaScript we can store multiple values of multiple types in a single array. That is called heterogeneous array or we can say mixed array.
+
+- `.push` .push method is used to append or adding a new value to the end of an array. You can push number, string, boolean etc.
+
+- `.pop` .pop method in javascript is used for deleting the last value from an array , no matter it is number, string or boolean.
+
+- `.length` is the property to show the length of the array, like if there are three items inside the array it will return 3.
 
 
 <br><br><br>
