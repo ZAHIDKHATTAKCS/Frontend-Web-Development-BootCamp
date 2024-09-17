@@ -400,6 +400,23 @@
 - `nested-if-else` nested-if-else is the if-else condition inside the other if-else called nested-if-else condition
 
 
+## <p align="center">Day 10</p>
+
+### <p align='center'>JavaScript Loops</p>
+
+- `Loops` are used to execute the block of code to the specific number of iterations.
+
+    + `For Loop` for loop is used when the number of iterations is known in advance.
+
+    + `While Loop` while loop is only used when you don't know about the number of iterations in advance.
+
+    + `Do while Loop` do while loop is run the code once even if the condition is wrong, than it will look to the condition
+
+- `Prefix ++i` prefix is used to increase the value of the loop counter before each iteration.
+
+- `postfix i++` postfix is used to increase the value of the loop counter after each iteration.
+
+
 
 <br><br><br>
 
