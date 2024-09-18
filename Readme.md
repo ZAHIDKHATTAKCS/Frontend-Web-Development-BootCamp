@@ -417,6 +417,23 @@
 - `postfix i++` postfix is used to increase the value of the loop counter after each iteration.
 
 
+## <p align="center">Day 11</p>
+
+### <p align='center'>JavaScript Functions</p>
+
+- `Function` A function is block of code that will be executed when it is called, a block of code that can be reused in program. first we have to create a function and we will call it for run it.
+
+- `Parameters` The parameters of the function are passed to the function while creating the function,
+
+- `Arguments` The Arguments of the function are passed to the function whenever we call the function,
+
+- `void function` the function that returns nothing
+
+- `return function` the function that returns something
+
+
+
+
 
 <br><br><br>
 
