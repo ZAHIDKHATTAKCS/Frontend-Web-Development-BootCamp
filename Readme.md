@@ -432,7 +432,26 @@
 - `return function` the function that returns something
 
 
+## <p align="center">Day 12</p>
 
+### <p align='center'>JavaScript DOM</p>
+
+- `DOM` DOM stands for Document Object Module, 
+
+- `getElementById` is the function in JavaScript used for accessing the element by ID property.
+
+- `getElementByClassName` is the function in JavaScript used for accessing the element by class name property
+
+- `GetElementByTagName` is the function in JavaScript used for accessing the element by their class name property.
+
+#### <p align='center'>Task # 3</p>
+
+Create a logic for a coffee shop that has an default value for the customer's age and displays: using JavaScript
+- " You get a 10% discount " if you are 65 or older
+
+- " you get a 5% discount " if you are a student (18-25)
+
+- " No discount " otherwise
 
 
 <br><br><br>

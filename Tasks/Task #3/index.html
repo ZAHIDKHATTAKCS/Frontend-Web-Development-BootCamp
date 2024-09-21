@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task #3 STD ID = 1044</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-image: url("bg.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1{
+            color: yellow;
+            border: 2px solid red;
+            border-radius: 20px;
+            backdrop-filter: blur(4px);
+        }
+    </style>
+</head>
+<body >
+    <script>
+        let username = prompt("Enter Your Name");
+
+        let userage = parseInt(prompt("Enter Your Age"));
+
+        if(userage >= 65 && userage < 100){
+
+            alert(`Hi ${username} you are Eligible for 10% Discount!`);
+
+        }else if (userage>=18 && userage <26){
+            
+            alert(`Hi ${username} you are Eligible for 5% Discount`);
+
+        }else{
+            
+            alert(`Sorry ${username} you are not Eligible for Discount!`);
+
+        }
+
+        // accessing h1 to give it style
+
+        let heading1 = document.getElementById("Heading");
+
+        heading1.style.backdropFilter = "blur(3px)";
+    </script>
+
+    <h1 id="Heading"><marquee behavior="alternate">Welcome <script>document.write(username);</script> to our Shop</marquee> </h1>
+</body>
+</html>
