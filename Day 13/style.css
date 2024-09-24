@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+
+h3{
+    color: blue;
+    text-transform: capitalize;
+}
+
+#post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    background-color: dodgerblue;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+#post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+#post i {
+    font-size: 50px;
+    color: #e24551;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    left: 50%;
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+}

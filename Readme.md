@@ -454,6 +454,12 @@ Create a logic for a coffee shop that has an default value for the customer's ag
 - " No discount " otherwise
 
 
+## <p align="center">Day 13</p>
+
+### <p align='center'>JavaScript DOM Event listener</p>
+
+<p align='center'>Done assignment of Event listener</p>
+
 <br><br><br>
 
 ## Teacher
