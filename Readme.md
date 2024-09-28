@@ -458,7 +458,56 @@ Create a logic for a coffee shop that has an default value for the customer's ag
 
 ### <p align='center'>JavaScript DOM Event listener</p>
 
-<p align='center'>Done assignment of Event listener</p>
+<p align='center'>Done assignment of Event listener</p><br><br>
+
+
+
+## <p align="center">Day 14</p>
+
+### <p align='center'>Start React</p>
+- `npm` stands for node package manager.
+
+
+### <p align='center'>Create React Project</p>
+
+- `npm create vite@latest`
+
+- Press `y`
+
+- Select a framework Go to `react` and hit `Enter`
+
+- Select a variant go to `JavaScrip` and hit `Enter`
+
+- after this you have to install npm for that just run the command `npm install`
+
+- after this in order to run the project you have to type command `npm run dev`
+
+### <p align='center'>Folder Structure</p>
+- `Public folder`
+
+    1. `Vite.svg` all the pictures are placed here that is visible to all the other People, public files like images and icons can be downloaded from inspect of the website and sources tab.
+
+- `src folder`
+
+    1. `assets folder` assets is the folder where we can store static files like images and icons of the website.
+
+    2. `App.css` is the file where we can add our style like as we adding in style.css file
+
+    3. `App.jsx` jsx (Javascript XML) this is the route file from where our all things are loaded.
+
+    4. `App.jsx` is the file where we define the HTML code 
+
+    5. `index.css` is the global styling file
+
+`Note :` if you want to change the default directory , if your project folder is inside the other folder you have to provide path like this `cd "Day 14/React-1"`
+
+
+## <p align="center">Day 16</p>
+### <p align='center'>Start Tailwindcss with React</p>
+- go to Tailwindcss website and copy the CDN and placed into the head of index.html file [CDN Link](https://tailwindcss.com/docs/installation/play-cdn)
+
+- `Note` remember that CDN is only used for practice its used for production mean don't deploy your website with CDN
+
 
 <br><br><br>
 
