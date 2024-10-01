@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height: 100vw; */
+}
+
+nav {
+    position: sticky;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,0.63) 0%, rgba(121,9,64,0.65) 63%);
+}
+
+#logo {
+    width: 100px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: lightblue;
+}
+
+main {
+    padding: 6.2%;
+    display: flex;
+    gap: 20px;
+}
+
+#left-div {
+    width: 50%; /* Left div takes half of the viewport */
+    height: 100%; /* Ensures the height matches the main container */
+}
+
+#left-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the div without stretching */
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px skyblue;
+}
+
+#right-div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Right div takes half of the viewport */
+    padding: 20px;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+footer {
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,0.63) 0%, rgba(121,9,64,0.65) 63%);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+
+
+#main-about{
+    background-image: url('Images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#section-1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#product-section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#section-1 #first-div , #second-div{
+    /* padding: 10px; */
+    font-size: 20px;
+}
+
+#second-div{
+    display: flex;
+    gap: 50px;
+}
+#about-bg{
+    background-image: url("Images/bg 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.card{
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    color: white;
+    border: 2px solid red;
+    border-radius: 13px;
+    width: 30%;
+    height: 460px;
+    box-shadow: 6px 5px 20px white;
+}
+
+.card img{
+    border: 1px solid white;
+}
+
+.card:hover{
+    box-shadow: 10px 5px 20px red;
+    cursor: pointer;
+    /* transition: ease-in-out 2s; */
+}
+
+#products-main{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 10px;
+    padding: 50px;
+}
+
+.product{
+    border: 2px solid red;
+    width: 30%;
+    height: 450px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 20px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product:hover{
+    box-shadow: 4px 4px 10px yellow;
+}
+
+#section-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    padding:2rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.gallery-card{
+    border: 2px solid red;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px gray;
+    border-radius: 1rem;
+}
+.gallery-card:hover{
+    box-shadow: 0 0 30px yellow;
+    cursor: pointer;
+}
+
+.contact-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -38px;
+}
+
+.contact-main form{
+    font-size: 20px;
+    color: white;
+    backdrop-filter: blur(10px);
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 30px blue;
+    border-radius: 10px;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+form input,textarea{
+    padding: 6px;
+    border: 1px solid lightgray;
+}
+
+button{
+    padding:10px;
+    background-color: skyblue;
+    color: white;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+
+.buttons-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* add to cart button */
+.buttons-div .add-to-cart{
+    background-color: red;
+}
+
+.buttons-div .add-to-cart:hover{
+    background-color: rgba(213, 17, 17, 0.918);
+    cursor: pointer;
+}
+
+
+.buttons-div .order-btn{
+    background-color: green;
+}
+
+.buttons-div .order-btn:hover{
+    background-color: rgb(8, 195, 8);
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width:613px) and (min-width:320px) {
+    nav ul li a{
+        font-size: 10px;
+    }
+
+    main{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    main #left-div{
+        /* border: 2px solid gray; */
+        width: 100%;
+    }
+
+    main #left-div img{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+    main #right-div{
+        /* border: 2px solid yellow; */
+        width: 100%;
+    }
+    #main-about{
+        margin: 0px;
+        display: block;
+        justify-content: center;
+    }
+    #second-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
+    .card{
+        width: 80%;
+        height: auto;
+    }
+
+    #products-main{
+        margin: 0px;
+        padding: 1rem;
+    }
+    #product-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .product{
+        width: 80%;
+        height: 20%;
+    }
+
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-card{
+        width: 100%;
+    }
+
+    .contact-main{
+        margin: 0;
+    }
+    .contact-main form{
+        width: 90%;
+        border: 2px solid rebeccapurple;
+        backdrop-filter: blur(3px);
+    }
+}
