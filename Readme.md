@@ -519,8 +519,16 @@ Create a logic for a coffee shop that has an default value for the customer's ag
 
 
 
-## <p align="center">Day 17</p>
-### <p align='center'>Learn about React Components</p>
+## <p align="center">Day 18</p>
+### <p align='center'>Learn about React Props and Objects</p>
+
+- `Props` props (short for "properties") in React are like arguments that you pass to a function. They are used to pass data from one component (usually a parent component) to another (usually a child component). we can a complete function and objects as a props. props means send values trough parent to the child
+
+`Note` as many props you using in code you have to pass these to the functions.
+
+    For example, if you have a parent component and you want to pass some information (like a number or a piece of text) to a child component, you can send that data using props.
+
+    Props help make React components reusable and dynamic because you can pass different values each time. However, props are read-only, meaning the child component can't modify them, only use them.
 
 
 <br><br><br>
