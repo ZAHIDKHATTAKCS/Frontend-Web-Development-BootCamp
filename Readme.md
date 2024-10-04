@@ -509,6 +509,15 @@ Create a logic for a coffee shop that has an default value for the customer's ag
 - `Note` remember that CDN is only used for practice its used for production mean don't deploy your website with CDN
 
 
+## <p align="center">Day 17</p>
+- `Ternary Operator` Ternary Operator is the shortcut form of if else statement here is the example <br>
+<p align="center">username == "zahid" ? zahid : error &nbsp; ? this means if the username == zahid so run the code after ? , and : means else runs this code</p>
+
+- learn about if else statements in react
+
+- learn about local and global variables in react
+
+
 
 ## <p align="center">Day 17</p>
 ### <p align='center'>Learn about React Components</p>
