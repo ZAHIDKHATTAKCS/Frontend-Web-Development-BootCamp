@@ -531,6 +531,318 @@ Create a logic for a coffee shop that has an default value for the customer's ag
     Props help make React components reusable and dynamic because you can pass different values each time. However, props are read-only, meaning the child component can't modify them, only use them.
 
 
+## <p align="center">Day 19</p>
+### <p align='center'>Learn about Route, props and Objects</p>
+
+- `Routing` Routing is used for redirect the link when a user clicks on a link so it will change only the body of the content when we want to make a multiple pages website so must have to use routes.
+
+`Note` there is no build-in route in react
+
+## <p align="center">Day 20</p>
+### <p align='center'>Learn about hooks</p>
+- `Hooks` Hooks are introduced in React 
+
+## <p align="center">Day 21</p>
+### <p align='center'>Resumption of React</p>
+### <p align='center'>Integrating React with Tailwindcss</p>
+- `Integrate React & TailwindCSS` to integrate React with TailwindCSS all you have to do is go to Tailwindcss website and follow the below instructions.
+
+    1. Click on `"Framework Guides"` than
+    2. Click on `"Vite"` than run all the following commands
+    ```
+    npm create vite@latest my-project -- --template react
+    cd my-project
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+    ``` 
+    3. now replace this content with the tailwindcss.config.js content <br>
+    
+    ```
+    content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+  ```
+
+    8. go to `index.css` file that is placed in the `"src"` folder and remove all the content from the file and replace all the below content <br>
+
+    ```
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    ```
+
+    9. run this command in terminal 
+    ```
+    npm run dev
+    ```
+
+    after run this command your project will will be run
+
+
+    `Note` You can explore the documentation of the Tailwindcss Website at [Tailwindcss](https://tailwindcss.com/)
+
+<br><br>
+
+### <p align='center'>Creating React Components</p>
+
+<hr>
+
+<br>
+
+- In React, components are like building blocks that make up your user interface. They are reusable pieces of code that define how a part of your app should look and behave. <br>Think of them as functions or templates that return HTML-like code (called JSX) and some logic. For example:<br>
+A button could be a component.
+A navbar or footer could be components.
+Even a single text box could be a component.
+
+- `Two Types of Components:`
+    1. `Functional Components` Functional components are just JavaScript functions. They take input (called props) and return what the UI should look like (JSX).
+    2. `Class Components` Class components in React are like blueprints for creating parts of your app, written using a class instead of a function.
+
+    `Note` name of the each component should be start with capital letter like `Navbar` or `Footer` etc.
+
+    `Note` after create a component you have to import it first in the `App.jsx` file and than call it by self closing tag like `<Navbar />` or `<Footer />` etc
+
+<br><br>
+
+### <p align='center'>Implement Javascript in React</p>
+
+<hr>
+
+<br>
+
+- `Variable` we can store headings paragraphs in a variable for using later on in the code like if we want to display greetings so we can store it in the variable greetings
+
+    ```
+    const Greetings = "Hi how are you";
+    ```
+
+    `Note` if you are using variable and want to call it on react components or in react file so you have to enclosed the variable name in curly brackets like
+
+    ```
+    <h1> {Greetings} Zahid Khattak </h1>
+    ```
+
+<br><br>
+
+### <p align='center'>Javascript Functions in React</p>
+
+
+<hr>
+
+<br>
+
+- if you are going to use functions in React you have to create it first and you must have to use return keyword inside the function else it will not display anything defined in the function.
+
+    ```
+    Name = "Zahid Khattak";
+
+    function CheckingName (){
+    if (Name === "Zahid Khattak"){
+      return <h1>hello Zahid Khattak</h1>
+    }else{
+      return <h1>hello someone else</h1>
+         }
+  }
+    ```
+
+
+    `Note` you can't use if else directly in the react. you have to create a function first and use it in react code remember it only if else, yes but you can use ternary operator as an if else statement directly in the react.
+
+<br><br>
+
+### <p align='center'>Objects and Props in React JS</p>
+
+
+<hr>
+
+<br>
+
+- `Props`  props (short for "properties") are like arguments you pass to a function. They are used to send data from a parent component to a child component. Yes you can send the variable values from parent to the child components.
+
+<h3 align="center">Parent Component</h3>
+
+```
+<Navbar LogoName="Zk Store" />
+```
+
+
+<h3 align="center">Child Component</h3>
+
+```
+const Navbar = ({LogoName}) => { // here the LogoName is the React Props that is called from the parent component and
+  return (
+    <div className="d-flex justify-center items-center bg-slate-400 py-4">
+        <ul className="flex items-center justify-between text-white text-2xl">
+            <div className="ms-4">
+                <li>{LogoName}</li>
+            </div>
+            <div className="flex justify-between flex-1 mx-96">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact US</li>
+            </div>
+        </ul>
+    </div>
+  )
+}
+```
+
+`Note` in order to send data from parent to child component you must have to call it as parameter in the child function as shown in the upper code.
+
+`Note` you can pass a functions, objects and single value from parent to child components in react but the thing is you have to define in the parent component and than pass it to the child function as a parameter than you can use in your child component code.
+
+- `Object` Object is the blueprint to store multiple values , object is the combination of key value pairs, in object there is a key and for each key there is a value. you can access the object value by using the object key. In object the key value pairs are enclose in the curly braces { } .
+
+<br>
+
+<h3 align="center">Creating Objects in JavaScript & in React</h3>
+
+<br>
+
+- `Object creation in JavaScript` we can create object in javascript like 
+
+```
+const Profile =  {
+  id:2,
+  Name:"Zahid Khattak",
+  Age:32,
+  Country:"Pakistan",
+  Hobby:"Learning React"
+  }
+
+// accessing value from object using keys 
+
+console.log(Profile.id);
+console.log(Profile.Name);
+console.log(Profile.Country);
+```
+
+- `Object creation in React` note that we have to create the object in the Parent Component in React and than pass it as a parameter to the child component and access the value through the keys like
+
+<br>
+
+<h3 align="center">Object Creation in Parent Component in React</h3>
+
+<br>
+
+```
+<Portfolio Profile =  {
+{
+  id:2,
+  Name:"Zahid Khattak",
+  Age:32,
+  Country:"Pakistan",
+  Hobby:"Learning React"
+}
+    }
+ />
+
+ - Note => Portfolio : child component call in parent component 
+
+- Note  => Profile : is the object that is created in the parent component it will be call in child component and accessing its value by keys
+
+- Note => id, Name, Age .. are the keys while 2, "Zahid Khattak".. are the values.
+```
+
+
+
+<br>
+
+<h3 align="center">Object Calling in Child Component in React</h3>
+
+<br>
+
+```
+
+const Profile = ({Profile}) => {
+  return (
+    <div>
+        <div className="flex justify-center items-center border border-red-500 rounded-md p-3 gap-12">
+            <div>
+                <img src="../Images/Zahid_Khattak.JPG" alt="pic" className="w-52 border rounded-md" />
+            </div>
+        <ul className="border p-2 border-red-500 rounded-md">
+            <li> Name :  {Profile.Name} </li>
+            <li> Age : {Profile.Age} </li>
+            <li> Country : {Profile.Country} </li>
+        </ul>
+        </div>
+    </div>
+  )
+}
+
+export default Profile
+
+```
+
+
+
+<br>
+
+<h3 align="center">Create Multiple Props and access Multiple Props in child Component</h3>
+
+<br>
+
+```
+
+<Profile Profile={{
+        id: 2,
+        Name: "Zahid Khattak",
+        Age: 32,
+        Country: "Pakistan",
+        Hobby: "Learning React"
+      }} Source = "../public/Images/Zahid_Khattak.JPG"  />
+
+
+// Now accessing it in child component
+
+const Profile = ({Profile,Source}) => {
+  return (
+    <div>
+        <div className="flex justify-center items-center border border-red-500 rounded-md p-3 gap-12">
+            <div>
+                <img src="../Images/Zahid_Khattak.JPG" alt="pic" className="w-52 border rounded-md" />
+            </div>
+        <ul className="border p-2 border-red-500 rounded-md">
+            <li> Name :  {Profile.Name} </li>
+            <li> Age : {Profile.Age} </li>
+            <li> Country : {Profile.Country} </li>
+
+            <li> User Image : <img src={Source} alt="user image" className="w-52 border border-green-900 rounded-md mt-2" /> </li>
+        </ul>
+        </div>
+    </div>
+  )
+}
+
+export default Profile
+
+```
+
+
+
+
+
+
+
+
+
+
+
+## Extension for Tailwindcss and React 
+
+1. [```Tailwindcss intellisense```](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+2. [```ES7+ React/Redux/React-Native snippets```](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+
+    `Note` this extension can allow to create components function automatically while you have to write only 
+    `Rafce` when you hit enter after that this will create your component function automatically.
+
+
+
+
 <br><br><br>
 
 ## Teacher
