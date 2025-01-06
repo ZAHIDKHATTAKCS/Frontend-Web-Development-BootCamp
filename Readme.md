@@ -822,10 +822,130 @@ export default Profile
 ```
 
 
+<br>
+
+<h3 align="center">Routing in React</h3>
 
 
+<h3 align="center">npm (Javascript Package Manager)</h3>
+
+<br>
+
+- `npm`  npm (Javascript Package Manager) is a tool that helps developers manage and share code packages (called "modules") for their JavaScript projects.
+These packages are often small programs or APIs that solve specific problems, and you can easily use them in your own projects.
+npm packages are created and shared by other developers, not just by React or official teams. Many developers upload their useful code to npm to help others, and anyone can download and use them.
+
+- `react routes` as per we don't have the built-in routes in react so we can take it from the npm.
+
+- you can download animations package and many more from npm 
 
 
+<br>
+
+<h3 align="center">Now how we can install the react routes in our project </h3>
+
+<br>
+
+- Go to  [React Router Dom](https://www.npmjs.com/package/@types/react-router-dom) for routing
+
+
+-  just copy [Npm Install Router](https://www.npmjs.com/package/@types/react-router-dom#:~:text=npm%20i%20%40types/react%2Drouter%2Ddom)
+
+- in order to check is that installed or not just go to package.json file you will see react-router-dom in "DevDependencies"
+
+<br>
+
+<h3 align="center">How We can use it in our project </h3>
+
+- firstly you have to import the react-router-dom package to the main file of react project like App.jsx its because we want to redirect users from main file <br>
+so in order to import the react-router dom packages you need to import the react-router in the main file like given below 
+
+```
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+```
+
+- `import:` This is used to include specific modules or features in your file from another library or file.
+
+- `BrowserRouter:` This is a component provided by react-router-dom that enables routing in a React app. It manages the URL and allows switching between different components based on the URL. 
+
+- `as Router:` This renames BrowserRouter to Router so it's easier to use in the code.
+Instead of writing BrowserRouter everywhere, you can just use Router.
+
+- `Route:` This component defines a specific route or URL path and specifies which component should be displayed for that path.
+Example: For the path /about, you can show the "About" component.
+
+- `Routes:` This is a wrapper component used to group multiple Route components. It ensures only the matching route is displayed when the URL changes.
+
+<p align="center"> In siple words</p>
+
+- `Router:` Wraps everything and keeps track of the current URL. Working as a manger for all the routes
+
+- `Routes:` Groups all the Route definitions.
+
+- `Route:` Specifies the URL (path) and the component (element) to display for that URL.
+
+- now in order to use the routes in project you have to placed `Forward slash / ` to each of your anchor tags in navbar component like this
+
+```
+<a href="/">Home</a> // here the only forward slash means it will redirect to the home page
+<a href="/about">About Us</a>
+<a href="/contact">Contact Us</a>
+
+```
+
+- Now how can we create Router, Routes, and Route in main jsx file
+
+```
+
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+```
+
+- `Note` Route is self closing tag which takes two arguments one is path that is like the path of the element that should be shown when clicks on <Home />
+
+- `Note` if you didn't create the home page as a separate component so you can directly pass the whole code in the element attribute in the route of home but the thing is you must have to pass all the content in the div mean you have to create a div first inside the element attribute like 
+
+```
+<>
+      <Navbar />
+      <Router>
+        <Routes>
+          <Route path="/" element={
+            <div>
+              <main className="mt-5">
+                <h1 className="text-3xl font-bold underline text-center">
+                  Hello world!
+                </h1>
+
+                <Car />
+              </main>
+            </div>
+          } />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
+      <Footer />
+
+
+    </>
+```
+
+- `Note` you have to create page as a component means the component is also use as a page
 
 
 
