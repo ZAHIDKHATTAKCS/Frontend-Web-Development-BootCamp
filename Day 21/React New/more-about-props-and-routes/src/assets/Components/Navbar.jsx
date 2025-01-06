@@ -10,7 +10,7 @@ const Navbar = ({LogoName}) => {
                 <li>{LogoName}</li>
             </div>
             <div className="flex justify-between flex-1 mx-96">
-            <li><a href="/">Home</a></li>
+            <li><a href=".">Home</a></li>
             <li><a href="/about">About Us</a></li>
             <li><a href="/contact">Contact Us</a></li>
             </div>
