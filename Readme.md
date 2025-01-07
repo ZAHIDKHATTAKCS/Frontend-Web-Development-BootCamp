@@ -945,10 +945,24 @@ export default App;
     </>
 ```
 
-- `Note` you have to create page as a component means the component is also use as a page
+- `Note` you have to create page as a component means the component is also use as a page.
+
+<br>
 
 
+<br>
 
+<h3 align="center">Hooks in React</h3>
+
+<h4 align="center">Types of Hooks in React</h4>
+<br>
+
+- `UseState` UseState takes two values first value is the when you initialize a value in the start and the 2nd value is hits only when user clicks on something or type something etc, we can pass function component or something else as a value to the UseState.
+
+- `UseEffect` UseEffect will help you while fetching api's 
+
+
+- `Note` anonymous function is a function that has no name
 
 
 ## Extension for Tailwindcss and React 
